@@ -100,14 +100,6 @@ cd IBM-Applied-Data-Science-Capstone
 
 
 
-Run the Dash app:
-
-python3.11 spacex-dash-app.py
-
-
-
-Open a web browser and go to http://127.0.0.1:8050 to view the dashboard.
-
 Dataset
 
 The spacex_launch_dash.csv dataset contains SpaceX launch records with the following key columns:
@@ -115,13 +107,10 @@ The spacex_launch_dash.csv dataset contains SpaceX launch records with the follo
 
 
 
-
 Launch Site: The launch site (e.g., CCAFS LC-40, VAFB SLC-4E).
 
 
-
 Payload Mass (kg): The payload mass in kilograms.
-
 
 
 class: Launch outcome (1 = Success, 0 = Failure).
